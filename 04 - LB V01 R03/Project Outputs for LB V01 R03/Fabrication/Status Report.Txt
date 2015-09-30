@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [LB - PCB Route.PcbDoc]
+   Generated File[LB - PCB Route.TXT]
+   Generated File[LB - PCB Route.LDP]
+   Generated File[LB - PCB Route.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:26:17 On 25-Nov-14

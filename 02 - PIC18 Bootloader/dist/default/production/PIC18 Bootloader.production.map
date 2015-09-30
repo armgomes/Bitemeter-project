@@ -1,0 +1,135 @@
+MPLINK 4.40, Linker
+Linker Map File - Created Fri Apr 10 16:19:00 2015
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00000e
+                   .org_1       code   0x000000    program   0x000000
+                   .org_2       code   0x01fc00    program   0x000298
+.config_01FFF8_PIC18 BOOTLOADER.O    romdata   0x01fff8    program   0x000001
+.config_01FFF9_PIC18 BOOTLOADER.O    romdata   0x01fff9    program   0x000001
+.config_01FFFA_PIC18 BOOTLOADER.O    romdata   0x01fffa    program   0x000001
+.config_01FFFB_PIC18 BOOTLOADER.O    romdata   0x01fffb    program   0x000001
+.config_01FFFC_PIC18 BOOTLOADER.O    romdata   0x01fffc    program   0x000001
+.config_01FFFD_PIC18 BOOTLOADER.O    romdata   0x01fffd    program   0x000001
+.config_01FFFE_PIC18 BOOTLOADER.O    romdata   0x01fffe    program   0x000001
+.config_01FFFF_PIC18 BOOTLOADER.O    romdata   0x01ffff    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00000d      
+                            0x01fc00    0x01fe97      
+                            0x01fff8    0x01ffff      
+            686 out of 131074 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   AddCrc   0x01fcf6    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+         AppendDataBuffer   0x01fc84    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+            BootInfoBlock   0x01fd18    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+         BootInfoBlockEnd   0x01fd22    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+             BootloadMode   0x01fc24    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+     BootloaderBreakCheck   0x01fc02    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+           BootloaderInfo   0x01fd22    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+          BootloaderStart   0x01fc00    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+             CheckCommand   0x01fcc6    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+               DoAutoBaud   0x01fc40    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+         EraseAddressOkay   0x01fdbe    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+ EraseEndFlashAddressOkay   0x01fd96    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+               EraseFlash   0x01fd7c    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+            GotoAppVector   0x01fc20    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+          JUMPTABLE_BEGIN   0x01fccc    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+     LoadHoldingRegisters   0x01fe1c    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+           NextEraseBlock   0x01fdc4    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+                    NoETX   0x01fc7c    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+                    NoSTX   0x01fc76    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+               ReadEeprom   0x01fe34    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+                ReadFlash   0x01fd34    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+             ReadHostByte   0x01fe6c    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+          ReceiveDataLoop   0x01fc70    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+            RetryAutoBaud   0x01fc46    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+          SendAcknowledge   0x01fe34    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+             SendChecksum   0x01fe3c    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+                  SendETX   0x01fe44    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+           SendEscapeByte   0x01fe4a    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+             SendHostByte   0x01fe62    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+              StartOfLine   0x01fc68    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+               StartWrite   0x01fe88    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+           TableWriteWREG   0x01fe84    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+              VerifyFlash   0x01fd4a    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+          VerifyPacketCRC   0x01fc8a    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+      VerifyPacketCrcLoop   0x01fc96    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+          WaitForHostByte   0x01fe70    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+       WaitForHostCommand   0x01fc62    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+              WaitForRise   0x01fce6    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+          WaitForRiseLoop   0x01fce8    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+                    WrDLE   0x01fe5c    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+                   WrNext   0x01fe60    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+         WriteAddressOkay   0x01fe18    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+              WriteConfig   0x01fe34    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+              WriteEeprom   0x01fe34    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+ WriteEndFlashAddressOkay   0x01fdf0    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+               WriteFlash   0x01fdda    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+                     WtSR   0x01fcf0    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+          BootloaderStart   0x01fc00    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+     BootloaderBreakCheck   0x01fc02    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+            GotoAppVector   0x01fc20    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+             BootloadMode   0x01fc24    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+               DoAutoBaud   0x01fc40    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+            RetryAutoBaud   0x01fc46    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+       WaitForHostCommand   0x01fc62    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+              StartOfLine   0x01fc68    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+          ReceiveDataLoop   0x01fc70    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+                    NoSTX   0x01fc76    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+                    NoETX   0x01fc7c    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+         AppendDataBuffer   0x01fc84    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+          VerifyPacketCRC   0x01fc8a    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+      VerifyPacketCrcLoop   0x01fc96    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+             CheckCommand   0x01fcc6    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+          JUMPTABLE_BEGIN   0x01fccc    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+              WaitForRise   0x01fce6    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+          WaitForRiseLoop   0x01fce8    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+                     WtSR   0x01fcf0    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+                   AddCrc   0x01fcf6    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+            BootInfoBlock   0x01fd18    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+         BootInfoBlockEnd   0x01fd22    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+           BootloaderInfo   0x01fd22    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+                ReadFlash   0x01fd34    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+              VerifyFlash   0x01fd4a    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+               EraseFlash   0x01fd7c    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+ EraseEndFlashAddressOkay   0x01fd96    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+         EraseAddressOkay   0x01fdbe    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+           NextEraseBlock   0x01fdc4    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+               WriteFlash   0x01fdda    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+ WriteEndFlashAddressOkay   0x01fdf0    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+         WriteAddressOkay   0x01fe18    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+     LoadHoldingRegisters   0x01fe1c    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+               ReadEeprom   0x01fe34    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+              WriteEeprom   0x01fe34    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+              WriteConfig   0x01fe34    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+          SendAcknowledge   0x01fe34    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+             SendChecksum   0x01fe3c    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+                  SendETX   0x01fe44    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+           SendEscapeByte   0x01fe4a    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+                    WrDLE   0x01fe5c    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+                   WrNext   0x01fe60    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+             SendHostByte   0x01fe62    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+             ReadHostByte   0x01fe6c    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+          WaitForHostByte   0x01fe70    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+           TableWriteWREG   0x01fe84    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+               StartWrite   0x01fe88    program     static E:\Mestrado\06 - Tese\02 - Firmware\PIC18 Bootloader\PIC18 Bootloader.asm
+
+

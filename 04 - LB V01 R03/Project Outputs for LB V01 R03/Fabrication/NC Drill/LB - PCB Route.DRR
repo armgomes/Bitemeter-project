@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: LB - PCB Route.PcbDoc   25-Nov-14  11:26:16
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : LB - PCB Route.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.3mm (11.811mil)        Round          49               224.48 mm (8.84 Inch)
+T2        1.1mm (43.307mil)        Round          11               65.16 mm (2.57 Inch)
+T3        2.5mm (98.425mil)        Round          4                136.67 mm (5.38 Inch)
+---------------------------------------------------------------------------
+Totals                                            64               426.32 mm (16.78 Inch)
+
+Total Processing Time (hh:mm:ss) : 00:00:01

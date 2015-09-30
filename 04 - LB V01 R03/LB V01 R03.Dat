@@ -1,0 +1,27 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~LB V01 R02.PrjPcb|ReportField=ProjectFullPath~E:\Mestrado\06 - Tese\01 - Hardware\DataAcq\LB V01 R02\LB V01 R02.PrjPcb|ReportField=Title~Bill of Materials For Project [LB V01 R02.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~34|ReportField=ReportTime~6:27:03|ReportField=ReportDate~18-Sep-14|ReportField=ReportDateTime~18-Sep-14 6:27:03|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~18-Sep-14|ReportField=CurrentTime~6:27:01|ReportField=Date~|ReportField=DocumentFullPathAndName~E:\Mestrado\06 - Tese\01 - Hardware\DataAcq\LB V01 R02\LB - IO Supply.SchDoc|ReportField=DocumentName~LB - IO Supply.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~17-Sep-14|ReportField=Organization~|ReportField=ProjectName~LB V01 R02.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~LB V01 R02.PrjPcb|ReportField=DataSourceFullPath~E:\Mestrado\06 - Tese\01 - Hardware\DataAcq\LB V01 R02\LB V01 R02.PrjPcb
+1uF|Capictor Cerâmico 1uFx16V|C1, C2|R0805|C|2
+22pF|Capacitor 22pF, Capacitor 33pF|C3, C4|R0805|C|2
+10uF|=Description|C5|R0805|C|1
+0.1uF|Capacitor 0.1uFx25V|C6, C7, C8|R0805|C|3
+MCP1755S|Regulador 3.3V|CI1|MCP1755ST-3302E/DB|Regulador 3.3V - SOT223-3, 4-Leads, Body 6.50x7.00mm (avg), Pitch 2.30mm, IPC Medium|1
+PIC18F27J13|PIC18 8Bits|CI2|PIC24F16KL402|PIC18F27J13|1
+MCP9700A|Sensor de temperatura|CI3|MCP9700A|MCP9700A|1
+Header 2|Header, 2-Pin|CN1|HDR1X2|Conector Alimentação|1
+Header 3|Header, 3-Pin|CN2|HDR1X3|Conector Sensor|1
+DM3AT-SF-PEJM5|Slot Micro SD - Push-Pull|CN3|DM3AT|MicroSD - DM3CS-SF|1
+Header 6|Header, 6-Pin|CN4|HDR1X6|Conector Programação|1
+Red|LED|D1|LTST-C930|LED|1
+Yellow|LED|D2|LTST-C930|LED|1
+Blue|LED|D3|LTST-C930|LED|1
+JY-MCU HC-05|Modulo Bluetooth HC-05|MOD1|JY-MCU HC-0x|JY-MCU HC-05|1
+DMP2305U-7|MOSFET-P|Q1, Q2|DMP2305U-7|MOSFET-P DIODE|2
+4k7x8 Bus||R1|MNR15|R ARRAY BUS 8 - 10 PIN|1
+50k|Trimpot 50k|R2|3364X-1-503E|Trimpot|1
+17.4k||R3|R0805|R|1
+10.0k||R4|R0805|R|1
+10k||R5|R0805|R|1
+0R|=Descripton|R6|R0805|R|1
+470||R7, R8, R9|R0805|R|3
+PTS645SL50SMTR92 LFS|Push Button|SW1, SW3|PUSH BOTTON RIGHT|Push button|2
+PTS645SL50SMTR92 LFS|Push Button|SW2|Push Button|Push button|1
+20.000Hz|Crystal 20.000Hz|X1|ABM3|XTAL|1

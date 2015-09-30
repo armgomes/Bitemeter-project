@@ -1,0 +1,31 @@
+Para aqueles que estão interessados em modificar ou utilizar
+o Bitemeter na sua pesquisa, segue o roteiro do material
+necessário para sua produção.
+
+
+Pasta 01
+Firmware do Bitemeter
+
+Pasta 02
+Firware do bootloader
+
+Pasta 03
+Software de comunicação com o bootloader
+
+Pasta 04
+Diagrama eletrônico e PCB
+
+Pasta 05
+Especificação do projeto
+
+Pasta 05 -> Documentos
+Datasheets dos principais componentes e documentos auxiliares
+
+Pasta 05 -> Fotos
+Fotos do projeto montado
+
+Pasta 05 - Solid
+Arquivos do Solid Works 
+
+Importante:
+Os arquivos podem sofre modificações sem prévio aviso!
